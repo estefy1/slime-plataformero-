@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://wgcd2hms8ovy"
+path="res://.godot/imported/Descargar sonido de moneda Mario bros  Download Mario Bros Coin sound.mp3-a3826030de9eff42d2422531abb39f52.mp3str"
+
+[deps]
+
+source_file="res://Rocky Roads/Rocky Roads/sonidos/Descargar sonido de moneda Mario bros  Download Mario Bros Coin sound.mp3"
+dest_files=["res://.godot/imported/Descargar sonido de moneda Mario bros  Download Mario Bros Coin sound.mp3-a3826030de9eff42d2422531abb39f52.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

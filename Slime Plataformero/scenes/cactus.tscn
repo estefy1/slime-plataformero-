@@ -1,0 +1,71 @@
+[gd_scene load_steps=11 format=3 uid="uid://0sv31hq3xdil"]
+
+[ext_resource type="Script" uid="uid://dtc0csokvf5aa" path="res://Scripts/cactus.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://db7wln76jay3v" path="res://Rocky Roads/Rocky Roads/Enemies/cactus.png" id="2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f17ax"]
+size = Vector2(15, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8fcr"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xnkkd"]
+atlas = ExtResource("2")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1an2p"]
+atlas = ExtResource("2")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yn4wg"]
+atlas = ExtResource("2")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_34gpn"]
+atlas = ExtResource("2")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hrquq"]
+atlas = ExtResource("2")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c5stw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8fcr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xnkkd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1an2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yn4wg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_34gpn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hrquq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[node name="cactus" type="StaticBody2D"]
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 5)
+shape = SubResource("RectangleShape2D_f17ax")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_c5stw")
+frame = 5
+frame_progress = 0.624479
+
+[node name="Timer" type="Timer" parent="."]

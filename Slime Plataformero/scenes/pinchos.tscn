@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://bqgy1dlgvnpit"]
+
+[ext_resource type="Script" uid="uid://cku8bk72cjpvk" path="res://Scripts/pinchos.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://d1hagbvpm6ykg" path="res://Rocky Roads/Rocky Roads/Enemies/spikes.png" id="2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_us62s"]
+size = Vector2(16, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f842b"]
+atlas = ExtResource("2")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ln3xb"]
+atlas = ExtResource("2")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lujo5"]
+atlas = ExtResource("2")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rtan"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i4c3n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f842b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ln3xb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lujo5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0rtan")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="Pinchos" type="Area2D"]
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_us62s")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_i4c3n")
+frame = 2
+frame_progress = 0.645374
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

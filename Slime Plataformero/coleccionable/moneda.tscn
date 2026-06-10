@@ -1,0 +1,64 @@
+[gd_scene load_steps=7 format=3 uid="uid://bvkx7qlgyebnl"]
+
+[ext_resource type="Script" uid="uid://bj0cmkij0g4v7" path="res://Scripts/moneda.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://c86fk13lvwdf5" path="res://Rocky Roads/Rocky Roads/Objects/coin_small_gold.png" id="2"]
+
+[sub_resource type="Animation" id="Animation_g345l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+
+[sub_resource type="Animation" id="Animation_02odb"]
+resource_name = "moneda"
+length = 1.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.866667, 1.16667, 1.46667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 2, 3, 4, 5, 5, 1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s3v3u"]
+_data = {
+&"RESET": SubResource("Animation_g345l"),
+&"moneda": SubResource("Animation_02odb")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bbqh0"]
+radius = 7.0
+
+[node name="Moneda" type="Area2D"]
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+hframes = 6
+frame = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_s3v3u")
+}
+autoplay = "moneda"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_bbqh0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
