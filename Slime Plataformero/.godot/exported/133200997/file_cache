@@ -1,0 +1,15 @@
+res://coleccionable/global.tscn::f154158c70cdea62e9082d8402bcf3c3::1781120483::res://.godot/exported/133200997/export-61703b793ec3e6fca22585ed4097ee21-global.scn
+res://coleccionable/moneda.tscn::624465eb8695361f9b0395cefb098376::1781120484::res://.godot/exported/133200997/export-52f6e4bd4d619f5884320b2f9ee5fbec-moneda.scn
+res://scenes/bala.tscn::81ce5143715404f58027ea4a40ce0519::1781120483::res://.godot/exported/133200997/export-7c8bf47d9e38b92640b72b8fe8055ad1-bala.scn
+res://scenes/cactus.tscn::81ea084c0db86d10a17d97f557b68bb6::1781121860::res://.godot/exported/133200997/export-628270554f4b33f5f98a299f27cd4175-cactus.scn
+res://scenes/enemigo.tscn::1d5a672ec20fbe7578308df7b10bc4da::1781120484::res://.godot/exported/133200997/export-8709e63c403fbe84013152997fd2cc5e-enemigo.scn
+res://scenes/game_over.tscn::8b97c2d8935491fa8dc25fdafa6279ad::1781120483::res://.godot/exported/133200997/export-21b8bee24a2bf9e9929bc898cc82b612-game_over.scn
+res://scenes/menu.tscn::0f8be6f65437b4d86d5bcd1e8727879a::1781121859::res://.godot/exported/133200997/export-1ce5c86e8ca186dcaaeaa8726f1268db-menu.scn
+res://scenes/pinchos.tscn::0fff7b494dd63a5f167543d3c0b156ae::1781120483::res://.godot/exported/133200997/export-70138edd25a24d192365d526e4e1c7eb-pinchos.scn
+res://scenes/player.tscn::266ae6f384fdadcf56d5110bd45de85e::1781120483::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/portal.tscn::3decfc61dd8cbae03ef4e5659b549f2f::1781120483::res://.godot/exported/133200997/export-f074f8226365829507402181bf60e300-portal.scn
+res://scenes/sierra.tscn::314ea19689350704a91eee61745c076c::1781120483::res://.godot/exported/133200997/export-ed180ba39ae47397a7b9c625c2557f22-sierra.scn
+res://scenes/slimerojo.tscn::43280fab239372f8cb342116a2fb4a7a::1781120483::res://.godot/exported/133200997/export-f5e8e3c49fb62a73afafd7e4a154e14d-slimerojo.scn
+res://scenes/VICTORIA.tscn::d1e399e5150660c02698a08a2a66be65::1781120483::res://.godot/exported/133200997/export-8dc3610f36971a768bf52973c97d8ea6-VICTORIA.scn
+res://scenes/world.tscn::2e90243ba7f14ded77a6d6afaa277098::1781121860::res://.godot/exported/133200997/export-6b9c1b1fd6ae6f795188dfdc89e222b0-world.scn
+res://Scripts/GUItext.tres::f731870dcc4be7b45f61d0f12797ecf6::1781120483::res://.godot/exported/133200997/export-256a02097013dd2403f4081b91fca07a-GUItext.res
