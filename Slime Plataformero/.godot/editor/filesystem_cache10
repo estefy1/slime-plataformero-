@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1781748482
-control.gd::GDScript/GDScript::1810272248691420336::1781124386::0::1::::<>Control<><>0<>0<><>::
+::res://::1781786476
+control.gd::GDScript::1810272248691420336::1781750621::0::1::::<>Control<><>0<>0<><>::
 export_presets.cfg::TextFile/TextFile::-1::1781124386::0::1::::<><><>0<>0<><>::
 gdre_export.log::TextFile/TextFile::-1::1781124386::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::5588603559119710006::1781124386::1781125376::1::::<><><>0<>0<>810854c318e256d95f1be2c7a3652836<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://coleccionable/::1781125189
-global.tscn::PackedScene/PackedScene::5471812741682901432::1781124386::0::1::::<><><>0<>0<><>::uid://cbslrudl7arwu::::res://Scripts/global.gd
-moneda.tscn::PackedScene/PackedScene::3882484671542258537::1781124386::0::1::::<><><>0<>0<><>::uid://bj0cmkij0g4v7::::res://Scripts/moneda.gd<>uid://c86fk13lvwdf5::::res://Rocky Roads/Rocky Roads/Objects/coin_small_gold.png
+::res://coleccionable/::1781750622
+global.tscn::PackedScene::5471812741682901432::1781750622::0::1::::<><><>0<>0<><>::uid://cbslrudl7arwu::::res://Scripts/global.gd
+moneda.tscn::PackedScene::3882484671542258537::1781750622::0::1::::<><><>0<>0<><>::uid://bj0cmkij0g4v7::::res://Scripts/moneda.gd<>uid://c86fk13lvwdf5::::res://Rocky Roads/Rocky Roads/Objects/coin_small_gold.png
 ::res://Rocky Roads/::1781125189
 ::res://Rocky Roads/Rocky Roads/::1781125190
 ::res://Rocky Roads/Rocky Roads/Backgrounds/::1781125377
@@ -128,33 +128,33 @@ text.png::CompressedTexture2D/CompressedTexture2D::8432425591567326904::17811243
 text_fx.png::CompressedTexture2D/CompressedTexture2D::8737222070829566638::1781124386::1781125376::1::::<><><>0<>0<>81395af82c52442ffd32463e437717b6<>res://.godot/imported/text_fx.png-61d583d97d282240ba1901ebe45c16f7.ctex::
 TITULO.png::CompressedTexture2D/CompressedTexture2D::5653699820206589538::1781124386::1781125377::1::::<><><>0<>0<>6d195fa88ffd452514f7c10ed0a13427<>res://.godot/imported/TITULO.png-859ab5b6c1fea4dbcdb12cd2cb3e9e78.ctex::
 ui.png::CompressedTexture2D/CompressedTexture2D::6981469331117723223::1781124386::1781125376::1::::<><><>0<>0<>415131d43d8968a8743d2980df9af90b<>res://.godot/imported/ui.png-4029d4b97cdb212ce92294de08b77f09.ctex::
-::res://scenes/::1781125190
+::res://scenes/::1781750622
 bala.tscn::PackedScene/PackedScene::759787488882284960::1781124386::0::1::::<><><>0<>0<><>::uid://dhm0oqahwd6r2::::res://Scripts/bala.gd<>uid://rn4a20fej8hy::::res://Rocky Roads/Rocky Roads/Enemies/cactus_bala.png
-cactus.tscn::PackedScene/PackedScene::1793206326787344991::1781124386::0::1::::<><><>0<>0<><>::uid://dtc0csokvf5aa::::res://Scripts/cactus.gd<>uid://db7wln76jay3v::::res://Rocky Roads/Rocky Roads/Enemies/cactus.png
+cactus.tscn::PackedScene::1793206326787344991::1781750622::0::1::::<><><>0<>0<><>::uid://dtc0csokvf5aa::::res://Scripts/cactus.gd<>uid://db7wln76jay3v::::res://Rocky Roads/Rocky Roads/Enemies/cactus.png
 enemigo.tscn::PackedScene/PackedScene::5059934812095166949::1781124386::0::1::::<><><>0<>0<><>::uid://dfpgc7bbfdebs::::res://Scripts/zona_de_muerte.gd
 game_over.tscn::PackedScene/PackedScene::4924799010983098676::1781124386::0::1::::<><><>0<>0<><>::uid://b0002ygd0bqj8::::res://Scripts/control.gd<>uid://sfuy6revlbpo::::res://Rocky Roads/Rocky Roads/UI/GAMEOVER.png<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf
-menu.tscn::PackedScene/PackedScene::6099006502340456603::1781124386::0::1::::<><><>0<>0<><>::uid://ckyjsmhiujuvt::::res://Scripts/menu.gd<>uid://cmsxu0glucskw::::res://Rocky Roads/Rocky Roads/UI/TITULO.png<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf
+menu.tscn::PackedScene::6099006502340456603::1781750622::0::1::::<><><>0<>0<><>::uid://ckyjsmhiujuvt::::res://Scripts/menu.gd<>uid://cmsxu0glucskw::::res://Rocky Roads/Rocky Roads/UI/TITULO.png<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf
 pinchos.tscn::PackedScene/PackedScene::3523332261758003479::1781124386::0::1::::<><><>0<>0<><>::uid://cku8bk72cjpvk::::res://Scripts/pinchos.gd<>uid://d1hagbvpm6ykg::::res://Rocky Roads/Rocky Roads/Enemies/spikes.png
 player.tscn::PackedScene/PackedScene::7306190577735500514::1781124386::0::1::::<><><>0<>0<><>::uid://dqaafrlwo3ptj::::res://Scripts/player.gd<>uid://ct0ytnsw2ll5g::::res://Rocky Roads/Rocky Roads/Enemies/slime_blue.png<>uid://d1nehxrs4bmkr::::res://Scripts/camera_2d.gd<>uid://cc3sr385ju6a6::::res://Rocky Roads/Rocky Roads/Objects/one_coin_gold.png<>uid://cph34ul53aob4::::res://Scripts/GUItext.tres<>uid://bpmum8fifhbye::::res://Rocky Roads/Rocky Roads/UI/corazon.png
 portal.tscn::PackedScene/PackedScene::91243472085306779::1781124386::0::1::::<><><>0<>0<><>::uid://cat70k7efvjep::::res://Scripts/portal.gd<>uid://cxdrgqnw5jfg6::::res://Rocky Roads/Rocky Roads/Deco/portal.png
 sierra.tscn::PackedScene/PackedScene::4052880375861122891::1781124386::0::1::::<><><>0<>0<><>::uid://dyupk3vjfxtvx::::res://Scripts/sierra.gd<>uid://b57gxrumuv0ng::::res://Rocky Roads/Rocky Roads/Enemies/saw.png
 slimerojo.tscn::PackedScene/PackedScene::7655886305519755720::1781124386::0::1::::<><><>0<>0<><>::uid://bcjdd00718w1o::::res://Scripts/slimerojo.gd<>uid://drxu5nl7ooyg2::::res://Rocky Roads/Rocky Roads/Enemies/slime_red.png
-VICTORIA.tscn::PackedScene/PackedScene::908409171103195937::1781124386::0::1::::<><><>0<>0<><>::uid://0156i5evg6ye::::res://control.gd<>uid://u7ddp3rfgfd7::::res://Rocky Roads/Rocky Roads/UI/GANASTES.png<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf
-world.tscn::PackedScene/PackedScene::8007228764887541358::1781124386::0::1::::<><><>0<>0<><>::uid://dcdf5kokqmdbu::::res://scenes/player.tscn<>uid://c3f0wjdniqpc1::::res://Rocky Roads/Rocky Roads/Tilesets/tileset_water.png<>uid://tbpyngqpbwtu::::res://Rocky Roads/Rocky Roads/Tilesets/tileset_lava.png<>uid://ctxnfooxsujtf::::res://Rocky Roads/Rocky Roads/Backgrounds/desert_b.png<>uid://cs532fhqseefy::::res://Rocky Roads/Rocky Roads/Backgrounds/mountains_a.png<>uid://brdrrlxynrp5d::::res://Rocky Roads/Rocky Roads/Backgrounds/clouds.png<>uid://06ky3tfe2vfy::::res://Rocky Roads/Rocky Roads/Deco/water_a_8frames.png<>uid://bvkx7qlgyebnl::::res://coleccionable/moneda.tscn<>uid://dlcjwdgrw5tsv::::res://Rocky Roads/Rocky Roads/Objects/sign_arrow.png<>uid://cedcnfqfuvhu0::::res://scenes/enemigo.tscn<>uid://bx0il25k3ivjf::::res://scenes/sierra.tscn<>uid://bqgy1dlgvnpit::::res://scenes/pinchos.tscn<>uid://0sv31hq3xdil::::res://scenes/cactus.tscn<>uid://bmckj6ydjkslh::::res://Scripts/tutorial.gd<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf<>uid://bkg1cit5bk2v::::res://scenes/portal.tscn
-::res://Scripts/::1781125190
+VICTORIA.tscn::PackedScene::908409171103195937::1781750622::0::1::::<><><>0<>0<><>::uid://0156i5evg6ye::::res://control.gd<>uid://u7ddp3rfgfd7::::res://Rocky Roads/Rocky Roads/UI/GANASTES.png<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf
+world.tscn::PackedScene::8007228764887541358::1781750622::0::1::::<><><>0<>0<><>::uid://dcdf5kokqmdbu::::res://scenes/player.tscn<>uid://c3f0wjdniqpc1::::res://Rocky Roads/Rocky Roads/Tilesets/tileset_water.png<>uid://tbpyngqpbwtu::::res://Rocky Roads/Rocky Roads/Tilesets/tileset_lava.png<>uid://ctxnfooxsujtf::::res://Rocky Roads/Rocky Roads/Backgrounds/desert_b.png<>uid://cs532fhqseefy::::res://Rocky Roads/Rocky Roads/Backgrounds/mountains_a.png<>uid://brdrrlxynrp5d::::res://Rocky Roads/Rocky Roads/Backgrounds/clouds.png<>uid://06ky3tfe2vfy::::res://Rocky Roads/Rocky Roads/Deco/water_a_8frames.png<>uid://bvkx7qlgyebnl::::res://coleccionable/moneda.tscn<>uid://dlcjwdgrw5tsv::::res://Rocky Roads/Rocky Roads/Objects/sign_arrow.png<>uid://cedcnfqfuvhu0::::res://scenes/enemigo.tscn<>uid://bx0il25k3ivjf::::res://scenes/sierra.tscn<>uid://bqgy1dlgvnpit::::res://scenes/pinchos.tscn<>uid://0sv31hq3xdil::::res://scenes/cactus.tscn<>uid://bmckj6ydjkslh::::res://Scripts/tutorial.gd<>uid://gld3wsmqan8y::::res://Rocky Roads/Rocky Roads/UI/PixelifySans-VariableFont_wght.ttf<>uid://bkg1cit5bk2v::::res://scenes/portal.tscn
+::res://Scripts/::1781750622
 bala.gd::GDScript/GDScript::7676900256249281329::1781124386::0::1::::<>Area2D<><>0<>0<><>::
-cactus.gd::GDScript/GDScript::8498501299647222320::1781124386::0::1::::<>StaticBody2D<><>0<>0<><>::
-camera_2d.gd::GDScript/GDScript::9011265500154695661::1781124386::0::1::::<>Camera2D<><>0<>0<><>::
-control.gd::GDScript/GDScript::4194318629749001611::1781124386::0::1::::<>Control<><>0<>0<><>::
-enemigo.gd::GDScript/GDScript::3638054153099299670::1781124386::0::1::::<>CharacterBody2D<><>0<>0<><>::
-global.gd::GDScript/GDScript::4880888311658113764::1781124386::0::1::::<>Node<><>0<>0<><>::
+cactus.gd::GDScript::8498501299647222320::1781750621::0::1::::<>StaticBody2D<><>0<>0<><>::
+camera_2d.gd::GDScript::9011265500154695661::1781750621::0::1::::<>Camera2D<><>0<>0<><>::
+control.gd::GDScript::4194318629749001611::1781750621::0::1::::<>Control<><>0<>0<><>::
+enemigo.gd::GDScript::3638054153099299670::1781750621::0::1::::<>CharacterBody2D<><>0<>0<><>::
+global.gd::GDScript::4880888311658113764::1781750621::0::1::::<>Node<><>0<>0<><>::
 GUItext.tres::LabelSettings/LabelSettings::5841877598916157111::1781124386::0::1::::<><><>0<>0<><>::
-menu.gd::GDScript/GDScript::5524854108573567221::1781124386::0::1::::<>Control<><>0<>0<><>::
-moneda.gd::GDScript/GDScript::3069873121833812670::1781124386::0::1::::<>Area2D<><>0<>0<><>::
-pinchos.gd::GDScript/GDScript::5518023381299963352::1781124386::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript/GDScript::8282293389166553355::1781124386::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-portal.gd::GDScript/GDScript::4814052708185989171::1781124386::0::1::::<>Area2D<><>0<>0<><>::
-sierra.gd::GDScript/GDScript::8886011969815045781::1781124386::0::1::::<>Area2D<><>0<>0<><>::
+menu.gd::GDScript::5524854108573567221::1781750621::0::1::::<>Control<><>0<>0<><>::
+moneda.gd::GDScript::3069873121833812670::1781750621::0::1::::<>Area2D<><>0<>0<><>::
+pinchos.gd::GDScript::5518023381299963352::1781750622::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::8282293389166553355::1781750622::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+portal.gd::GDScript::4814052708185989171::1781750622::0::1::::<>Area2D<><>0<>0<><>::
+sierra.gd::GDScript::8886011969815045781::1781750622::0::1::::<>Area2D<><>0<>0<><>::
 slimerojo.gd::GDScript/GDScript::2545566632309583554::1781124386::0::1::::<>CharacterBody2D<><>0<>0<><>::
-tutorial.gd::GDScript/GDScript::3233440470378325893::1781124386::0::1::::<>CanvasLayer<><>0<>0<><>::
-zona_de_muerte.gd::GDScript/GDScript::7541541491469019020::1781124386::0::1::::<>Area2D<><>0<>0<><>::
+tutorial.gd::GDScript::3233440470378325893::1781750622::0::1::::<>CanvasLayer<><>0<>0<><>::
+zona_de_muerte.gd::GDScript::7541541491469019020::1781750622::0::1::::<>Area2D<><>0<>0<><>::
