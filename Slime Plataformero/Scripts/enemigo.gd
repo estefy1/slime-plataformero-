@@ -4,20 +4,20 @@ const enemigoRESET: int = 50
 const gravity = 20
 
 func _ready():
-    velocity.x = - enemigoRESET
-    $AnimationPlayer.play("RESET")
+	velocity.x = - enemigoRESET
+	$AnimationPlayer.play("RESET")
 
 func _physics_process(_delta):
-    velocity.y += gravity
+	velocity.y += gravity
 
 
-    if is_on_wall():
-        velocity.x = - velocity.x
+	if is_on_wall():
+		velocity.x = - velocity.x
 
 
-    if velocity.x < 0:
-        $Sprite2D.flip_h = false
-    else:
-        $Sprite2D.flip_h = true
+	if velocity.x < 0:
+		$Sprite2D.flip_h = false
+	else:
+		$Sprite2D.flip_h = true
 
-    move_and_slide()
+	move_and_slide()
