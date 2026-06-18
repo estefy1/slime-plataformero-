@@ -1,4 +1,4 @@
-extends Node
+extends Node # La Global
 
 var moneda: = 0:
 	set(val):
