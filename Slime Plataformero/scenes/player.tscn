@@ -122,3 +122,11 @@ expand_mode = 1
 
 [node name="MaquinaEstados" type="Node" parent="."]
 script = ExtResource("7_fjrip")
+
+[node name="estado normal" type="Node" parent="MaquinaEstados"]
+
+[node name="estado salto" type="Node" parent="MaquinaEstados"]
+
+[node name="estado cayendo" type="Node" parent="MaquinaEstados"]
+
+[node name="estdo dash" type="Node" parent="MaquinaEstados"]
