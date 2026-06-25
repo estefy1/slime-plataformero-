@@ -17,6 +17,7 @@ const gravity := 10
 func _ready():
 	Global.player = self
 	actualizaInterfazVidas()
+<<<<<<< HEAD
 	actualizaInterfazMoneda()
 
 
@@ -37,6 +38,22 @@ func _physics_process(_delta):
 func actualizaInterfazMoneda():
 	monedalabel.text = str(Global.moneda)
 
+=======
+
+func _physics_process(_delta):
+	direccion = Input.get_axis("ui_left", "ui_right")
+	velocity.x = direccion * speed
+	anim.play("idle")
+	sprite.flip_h = direccion > 0 if direccion != 0 else sprite.flip_h
+	if is_on_floor() and Input.is_action_just_pressed("ui_accept"):
+		velocity.y -= jump
+	if !is_on_floor():
+		velocity.y += gravity
+	move_and_slide()
+
+func actualizaInterfazMoneda():
+	monedalabel.text = str(Global.moneda)
+>>>>>>> 355c41bda5b2c4c53347bf2edffb48d2b4407d71
 
 func actualizaInterfazVidas():
 	corazon1.visible = Global.vidas >= 1

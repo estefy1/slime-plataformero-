@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 extends Node
 
 @export var estado_inicial: Node
@@ -46,3 +47,42 @@ func transicionar(nombre_estado: String):
 
 	estado_actual = estados[nombre_estado]
 	estado_actual.entrada()
+=======
+extends Node  # maquina de estado 
+class_name MaquinaEstados
+
+@export var estado_inicial: Node
+
+var estado_actual
+
+func _ready():
+
+	for estado in get_children():
+		estado.jugador = owner
+		estado.maquina = self
+
+	estado_actual = estado_inicial
+
+	if estado_actual:
+		estado_actual.entrada()
+
+func _process(delta):
+
+	if estado_actual:
+		estado_actual.proceso(delta)
+
+func _physics_process(delta):
+
+	if estado_actual:
+		estado_actual.fisica(delta)
+
+func transicionar(nombre_estado : String):
+
+	if estado_actual:
+		estado_actual.salida()
+
+	estado_actual = get_node(nombre_estado)
+
+	if estado_actual:
+		estado_actual.entrada()
+>>>>>>> 355c41bda5b2c4c53347bf2edffb48d2b4407d71

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [gd_scene load_steps=16 format=3 uid="uid://dcdf5kokqmdbu"]
+=======
+[gd_scene load_steps=13 format=3 uid="uid://dcdf5kokqmdbu"]
+>>>>>>> 355c41bda5b2c4c53347bf2edffb48d2b4407d71
 
 [ext_resource type="Script" uid="uid://dqaafrlwo3ptj" path="res://Scripts/player.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://ct0ytnsw2ll5g" path="res://Rocky Roads/Rocky Roads/Enemies/slime_blue.png" id="2"]
@@ -6,10 +10,14 @@
 [ext_resource type="Texture2D" uid="uid://cc3sr385ju6a6" path="res://Rocky Roads/Rocky Roads/Objects/one_coin_gold.png" id="4"]
 [ext_resource type="LabelSettings" uid="uid://cph34ul53aob4" path="res://Scripts/GUItext.tres" id="5"]
 [ext_resource type="Texture2D" uid="uid://bpmum8fifhbye" path="res://Rocky Roads/Rocky Roads/UI/corazon.png" id="6"]
+<<<<<<< HEAD
 [ext_resource type="Script" uid="uid://cupxoj5e57tqj" path="res://scenes/maquina_estados.gd" id="7_fjrip"]
 [ext_resource type="Script" uid="uid://b7c8iva6dkrx4" path="res://scenes/estado_normal.gd" id="8_smehm"]
 [ext_resource type="Script" uid="uid://c1om27rq5ugvh" path="res://scenes/estado_salto.gd" id="9_y4r1p"]
 [ext_resource type="Script" uid="uid://eqvothai6lwa" path="res://scenes/estado_cayendo.gd" id="10_d2wvv"]
+=======
+[ext_resource type="Script" uid="uid://ccsld2wnp7g3y" path="res://scenes/maquina_estados.gd" id="7_fjrip"]
+>>>>>>> 355c41bda5b2c4c53347bf2edffb48d2b4407d71
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q6k85"]
 size = Vector2(16, 10)
@@ -126,6 +134,7 @@ expand_mode = 1
 [node name="MaquinaEstados" type="Node" parent="."]
 script = ExtResource("7_fjrip")
 
+<<<<<<< HEAD
 [node name="EstadoNormal" type="Node" parent="MaquinaEstados"]
 script = ExtResource("8_smehm")
 
@@ -134,3 +143,12 @@ script = ExtResource("9_y4r1p")
 
 [node name="EstadoCayendo" type="Node" parent="MaquinaEstados"]
 script = ExtResource("10_d2wvv")
+=======
+[node name="estado normal" type="Node" parent="MaquinaEstados"]
+
+[node name="estado salto" type="Node" parent="MaquinaEstados"]
+
+[node name="estado cayendo" type="Node" parent="MaquinaEstados"]
+
+[node name="estdo dash" type="Node" parent="MaquinaEstados"]
+>>>>>>> 355c41bda5b2c4c53347bf2edffb48d2b4407d71
