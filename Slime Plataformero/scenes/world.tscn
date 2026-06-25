@@ -287,6 +287,42 @@ position = Vector2(1215, 291)
 scale = Vector2(3.29688, 3.9375)
 texture = ExtResource("7")
 
+[node name="Moneda11" parent="." instance=ExtResource("8")]
+position = Vector2(-169, 202)
+
+[node name="Moneda12" parent="." instance=ExtResource("8")]
+position = Vector2(-281, 202)
+
+[node name="Moneda13" parent="." instance=ExtResource("8")]
+position = Vector2(-225, 169)
+
+[node name="Moneda14" parent="." instance=ExtResource("8")]
+position = Vector2(199, 186)
+
+[node name="Moneda15" parent="." instance=ExtResource("8")]
+position = Vector2(112, 186)
+
+[node name="Moneda16" parent="." instance=ExtResource("8")]
+position = Vector2(334, 169)
+
+[node name="Moneda17" parent="." instance=ExtResource("8")]
+position = Vector2(15, 138)
+
+[node name="Moneda18" parent="." instance=ExtResource("8")]
+position = Vector2(336, 217)
+
+[node name="Moneda19" parent="." instance=ExtResource("8")]
+position = Vector2(138, 138)
+
+[node name="Moneda20" parent="." instance=ExtResource("8")]
+position = Vector2(120, 138)
+
+[node name="Moneda21" parent="." instance=ExtResource("8")]
+position = Vector2(101, 138)
+
+[node name="Moneda" parent="." instance=ExtResource("8")]
+position = Vector2(-130, 137)
+
 [node name="punto de partida" type="Sprite2D" parent="."]
 position = Vector2(-407, 176)
 texture = ExtResource("9")
@@ -294,6 +330,35 @@ texture = ExtResource("9")
 [node name="area de muerte" parent="." instance=ExtResource("10")]
 position = Vector2(630, -23)
 scale = Vector2(2.86961, 1.1091)
+
+[node name="sierra7" parent="." instance=ExtResource("11")]
+position = Vector2(199, 240)
+
+[node name="Pinchos" parent="." instance=ExtResource("12")]
+position = Vector2(-151, 200)
+
+[node name="Pinchos2" parent="Pinchos" instance=ExtResource("12")]
+position = Vector2(225, 0)
+
+[node name="Pinchos3" parent="Pinchos" instance=ExtResource("12")]
+position = Vector2(385, 16)
+
+[node name="Pinchos4" parent="Pinchos" instance=ExtResource("12")]
+position = Vector2(141, -33)
+
+[node name="Pinchos5" parent="Pinchos" instance=ExtResource("12")]
+position = Vector2(301, 1)
+
+[node name="sierra" parent="." instance=ExtResource("11")]
+position = Vector2(-54, 125)
+
+[node name="cactus" parent="." instance=ExtResource("13")]
+position = Vector2(-108, 170)
+scale = Vector2(1, 1.36)
+
+[node name="cactus2" parent="cactus" instance=ExtResource("13")]
+position = Vector2(499, 21.3235)
+scale = Vector2(0.799982, 0.454287)
 
 [node name="tutorial" type="CanvasLayer" parent="."]
 script = ExtResource("14")
@@ -342,139 +407,63 @@ text = "ESPACIO → Saltar"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="sierra2" parent="." instance=ExtResource("11")]
+position = Vector2(471, 246)
+
+[node name="sierra3" parent="." instance=ExtResource("11")]
+position = Vector2(551, 92)
+
+[node name="sierra4" parent="." instance=ExtResource("11")]
+position = Vector2(634, 241)
+
+[node name="Pinchos2" parent="." instance=ExtResource("12")]
+position = Vector2(698, 200)
+
+[node name="Moneda2" parent="." instance=ExtResource("8")]
+position = Vector2(472, 184)
+
+[node name="Moneda3" parent="." instance=ExtResource("8")]
+position = Vector2(551, 154)
+
+[node name="Moneda4" parent="." instance=ExtResource("8")]
+position = Vector2(631, 185)
+
+[node name="Moneda5" parent="." instance=ExtResource("8")]
+position = Vector2(746, 186)
+
+[node name="Moneda6" parent="." instance=ExtResource("8")]
+position = Vector2(836, 153)
+
+[node name="Moneda7" parent="." instance=ExtResource("8")]
+position = Vector2(857, 153)
+
+[node name="Moneda8" parent="." instance=ExtResource("8")]
+position = Vector2(952, 170)
+
+[node name="Moneda9" parent="." instance=ExtResource("8")]
+position = Vector2(1057, 186)
+
+[node name="sierra5" parent="." instance=ExtResource("11")]
+position = Vector2(1005, 243)
+
+[node name="sierra6" parent="." instance=ExtResource("11")]
+position = Vector2(1006, 119)
+
+[node name="cactus2" parent="." instance=ExtResource("13")]
+position = Vector2(1192, 181)
+scale = Vector2(0.92002, 0.719998)
+
+[node name="Moneda10" parent="." instance=ExtResource("8")]
+position = Vector2(1297, 154)
+
+[node name="Pinchos3" parent="." instance=ExtResource("12")]
+position = Vector2(1162, 200)
+
+[node name="Pinchos4" parent="." instance=ExtResource("12")]
+position = Vector2(1237, 200)
+
 [node name="portal2" parent="." instance=ExtResource("16")]
 position = Vector2(1314, 150)
 
-[node name="cactus4" type="Node2D" parent="."]
-position = Vector2(199, 240)
-
-[node name="cactus3" parent="cactus4" instance=ExtResource("13")]
-position = Vector2(583, -64)
-
-[node name="cactus2" parent="cactus4" instance=ExtResource("13")]
-position = Vector2(993, -59)
-scale = Vector2(0.92002, 0.719998)
-
-[node name="cactus4" parent="cactus4" instance=ExtResource("13")]
-position = Vector2(192, -41)
-scale = Vector2(0.799982, 0.61783)
-
-[node name="cactus" parent="cactus4" instance=ExtResource("13")]
-position = Vector2(-307, -70)
-scale = Vector2(1, 1.36)
-
-[node name="cierra" type="Node2D" parent="."]
-position = Vector2(1297, 154)
-
-[node name="sierra2" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-826, 92)
-
-[node name="sierra3" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-746, -62)
-
-[node name="sierra4" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-663, 87)
-
-[node name="sierra5" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-292, 89)
-
-[node name="sierra6" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-291, -35)
-
-[node name="sierra7" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-1098, 86)
-
-[node name="sierra" parent="cierra" instance=ExtResource("11")]
-position = Vector2(-1351, -29)
-
-[node name="pincho" type="Node2D" parent="."]
-position = Vector2(-169, 202)
-
-[node name="Pinchos6" parent="pincho" instance=ExtResource("12")]
-position = Vector2(159, -35)
-
-[node name="Pinchos5" parent="pincho" instance=ExtResource("12")]
-position = Vector2(403, 14)
-
-[node name="Pinchos2" parent="pincho" instance=ExtResource("12")]
-position = Vector2(243, -2)
-
-[node name="Pinchos7" parent="pincho" instance=ExtResource("12")]
-position = Vector2(319, -1)
-
-[node name="Pinchos3" parent="pincho" instance=ExtResource("12")]
-position = Vector2(1331, -2)
-
-[node name="Pinchos" parent="pincho" instance=ExtResource("12")]
-position = Vector2(18, -2)
-
-[node name="Pinchos4" parent="pincho" instance=ExtResource("12")]
-position = Vector2(1406, -2)
-
-[node name="Pinchos8" parent="pincho" instance=ExtResource("12")]
-position = Vector2(867, -2)
-
-[node name="moneda" type="Node2D" parent="."]
-
-[node name="Moneda2" parent="moneda" instance=ExtResource("8")]
-position = Vector2(472, 184)
-
-[node name="Moneda3" parent="moneda" instance=ExtResource("8")]
-position = Vector2(551, 154)
-
-[node name="Moneda4" parent="moneda" instance=ExtResource("8")]
-position = Vector2(631, 185)
-
-[node name="Moneda5" parent="moneda" instance=ExtResource("8")]
-position = Vector2(746, 186)
-
-[node name="Moneda6" parent="moneda" instance=ExtResource("8")]
-position = Vector2(836, 153)
-
-[node name="Moneda7" parent="moneda" instance=ExtResource("8")]
-position = Vector2(857, 153)
-
-[node name="Moneda8" parent="moneda" instance=ExtResource("8")]
-position = Vector2(952, 170)
-
-[node name="Moneda9" parent="moneda" instance=ExtResource("8")]
-position = Vector2(1057, 186)
-
-[node name="Moneda11" parent="moneda" instance=ExtResource("8")]
-position = Vector2(-169, 202)
-
-[node name="Moneda12" parent="moneda" instance=ExtResource("8")]
-position = Vector2(-281, 202)
-
-[node name="Moneda13" parent="moneda" instance=ExtResource("8")]
-position = Vector2(-225, 169)
-
-[node name="Moneda14" parent="moneda" instance=ExtResource("8")]
-position = Vector2(199, 186)
-
-[node name="Moneda15" parent="moneda" instance=ExtResource("8")]
-position = Vector2(112, 186)
-
-[node name="Moneda16" parent="moneda" instance=ExtResource("8")]
-position = Vector2(334, 169)
-
-[node name="Moneda17" parent="moneda" instance=ExtResource("8")]
-position = Vector2(15, 138)
-
-[node name="Moneda18" parent="moneda" instance=ExtResource("8")]
-position = Vector2(336, 217)
-
-[node name="Moneda19" parent="moneda" instance=ExtResource("8")]
-position = Vector2(138, 138)
-
-[node name="Moneda20" parent="moneda" instance=ExtResource("8")]
-position = Vector2(120, 138)
-
-[node name="Moneda21" parent="moneda" instance=ExtResource("8")]
-position = Vector2(101, 138)
-
-[node name="Moneda" parent="moneda" instance=ExtResource("8")]
-position = Vector2(-130, 137)
-
-[node name="Moneda10" parent="moneda" instance=ExtResource("8")]
-position = Vector2(1297, 154)
+[node name="cactus3" parent="." instance=ExtResource("13")]
+position = Vector2(782, 176)
