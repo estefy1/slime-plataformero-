@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dcdf5kokqmdbu"]
+[gd_scene load_steps=16 format=3 uid="uid://dcdf5kokqmdbu"]
 
 [ext_resource type="Script" uid="uid://dqaafrlwo3ptj" path="res://Scripts/player.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://ct0ytnsw2ll5g" path="res://Rocky Roads/Rocky Roads/Enemies/slime_blue.png" id="2"]
@@ -6,6 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://cc3sr385ju6a6" path="res://Rocky Roads/Rocky Roads/Objects/one_coin_gold.png" id="4"]
 [ext_resource type="LabelSettings" uid="uid://cph34ul53aob4" path="res://Scripts/GUItext.tres" id="5"]
 [ext_resource type="Texture2D" uid="uid://bpmum8fifhbye" path="res://Rocky Roads/Rocky Roads/UI/corazon.png" id="6"]
+[ext_resource type="Script" uid="uid://cupxoj5e57tqj" path="res://scenes/maquina_estados.gd" id="7_fjrip"]
+[ext_resource type="Script" uid="uid://b7c8iva6dkrx4" path="res://scenes/estado_normal.gd" id="8_smehm"]
+[ext_resource type="Script" uid="uid://c1om27rq5ugvh" path="res://scenes/estado_salto.gd" id="9_y4r1p"]
+[ext_resource type="Script" uid="uid://eqvothai6lwa" path="res://scenes/estado_cayendo.gd" id="10_d2wvv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q6k85"]
 size = Vector2(16, 10)
@@ -118,3 +122,15 @@ custom_minimum_size = Vector2(20, 10)
 layout_mode = 2
 texture = ExtResource("6")
 expand_mode = 1
+
+[node name="MaquinaEstados" type="Node" parent="."]
+script = ExtResource("7_fjrip")
+
+[node name="EstadoNormal" type="Node" parent="MaquinaEstados"]
+script = ExtResource("8_smehm")
+
+[node name="EstadoSalto" type="Node" parent="MaquinaEstados"]
+script = ExtResource("9_y4r1p")
+
+[node name="EstadoCayendo" type="Node" parent="MaquinaEstados"]
+script = ExtResource("10_d2wvv")
